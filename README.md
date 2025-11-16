@@ -1,7 +1,7 @@
 # Collision-AppImage 🐧
 
 [![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/Collision-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/Collision-AppImage/releases/latest)
-[![CI Build Status](https://github.com//pkgforge-dev/Collision-AppImage/actions/workflows/blank.yml/badge.svg)](https://github.com/pkgforge-dev/Collision-AppImage/releases/latest)
+[![CI Build Status](https://github.com//pkgforge-dev/Collision-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/Collision-AppImage/releases/latest)
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/GeopJr/Collision/refs/heads/main/data/icons/dev.geopjr.Collision.svg" width="128" />
