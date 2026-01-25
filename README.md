@@ -27,6 +27,10 @@ Self-updater doesn't run if AppImage managers like [am](https://github.com/ivan-
   </a>
 </details>
 
+More at: [AnyLinux-AppImages](https://pkgforge-dev.github.io/Anylinux-AppImages/)
+
 ---
 
-More at: [AnyLinux-AppImages](https://pkgforge-dev.github.io/Anylinux-AppImages/)
+## Known quirk
+
+- If you want to use the Nautilus extension, you need to install `nautilus-python` dependency, download the extension manually and integrate it yourself in the system.
