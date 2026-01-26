@@ -1,3 +1,5 @@
+<div align="center">
+
 # Collision AppImage 🐧
 
 [![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/Collision-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/Collision-AppImage/releases/latest)
@@ -8,7 +10,11 @@
   <img src="https://raw.githubusercontent.com/GeopJr/Collision/refs/heads/main/data/icons/dev.geopjr.Collision.svg" width="128" />
 </p>
 
-* [Upstream URL](https://github.com/GeopJr/Collision)
+| Latest Stable Release | Upstream URL |
+| :---: | :---: |
+| [Click here](https://github.com/pkgforge-dev/Collision-AppImage/releases/latest) | [Click here](https://github.com/GeopJr/Collision) |
+
+</div>
 
 ---
 
