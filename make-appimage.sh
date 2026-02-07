@@ -12,9 +12,14 @@ export ICON=/usr/share/icons/hicolor/scalable/apps/dev.geopjr.Collision.svg
 export DESKTOP=/usr/share/applications/dev.geopjr.Collision.desktop
 export STARTUPWMCLASS=dev.geopjr.Collision # Default to Wayland's wmclass. For X11, GTK_CLASS_FIX will force the wmclass to be the Wayland one.
 export GTK_CLASS_FIX=1
+export DEPLOY_OPENGL=0
 
 # Trace and deploy all files and directories needed for the application (including binaries, libraries and others)
 quick-sharun /usr/bin/collision
+
+# force only software, hardware accel is not really needed for this simple app
+echo 'GSK_RENDERER=cairo'    >> ./AppDir/.env
+echo 'GDK_DISABLE=gl,vulkan' >> ./AppDir/.env
 
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
