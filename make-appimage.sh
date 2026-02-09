@@ -12,7 +12,7 @@ export ICON=/usr/share/icons/hicolor/scalable/apps/dev.geopjr.Collision.svg
 export DESKTOP=/usr/share/applications/dev.geopjr.Collision.desktop
 export STARTUPWMCLASS=dev.geopjr.Collision # Default to Wayland's wmclass. For X11, GTK_CLASS_FIX will force the wmclass to be the Wayland one.
 export GTK_CLASS_FIX=1
-export ALWAYS_SOFTWARE=1
+export ALWAYS_SOFTWARE=1 # force only software, hardware accel is not really needed for this simple app
 
 # Trace and deploy all files and directories needed for the application (including binaries, libraries and others)
 quick-sharun /usr/bin/collision
